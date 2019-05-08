@@ -1,0 +1,8 @@
+<!--pages/product/productView.wxml-->
+<view><text>商品名称：{{productInfo.name}}</text></view>
+<view>
+<text>品牌：{{productInfo.brandName}}</text>
+</view>
+<view style='font-size:10px'>商品描述：{{productInfo.subTitle}}</view>
+<view>{{productInfo.detailHtml}}</view>
+
